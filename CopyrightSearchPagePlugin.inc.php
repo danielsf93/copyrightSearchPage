@@ -1,15 +1,7 @@
 <?php
 
  /*
- *
- * @file plugins/generic/copyrightSearchPage/copyrightSearchPagePlugin.inc.php
- *
- * Copyright (c) 2021 Language Science Press
- * Developed by Ronald Steffen
- * Distributed under the GNU GPL v3. For full terms see the file docs/LICENSE.
- *
- * @brief copyrightSearchPagePlugin class definition
- *
+ plugins/generic/copyrightSearchPage/copyrightSearchPagePlugin.inc.php
  */
 
 import('lib.pkp.classes.plugins.GenericPlugin');
@@ -70,12 +62,12 @@ class CopyrightSearchPagePlugin extends GenericPlugin
 
     public function getDisplayName()
     {
-        return __('copyrightSearchPage');
+        return __('plugins.generic.copyrightSearchPage.displayName');
     }
 
     public function getDescription()
     {
-        return __('copyrightSearchPage');
+        return __('plugins.generic.copyrightSearchPage.description');
     }
 
     public function getTemplateFilePath($hookname, $args)

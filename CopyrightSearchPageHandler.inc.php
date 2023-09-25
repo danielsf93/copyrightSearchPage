@@ -1,16 +1,8 @@
 <?php
 
  /*
- *
- * @file plugins/generic/copyrightSearchPage/copyrightSearchPageHandler.inc.php
- *
- * Copyright (c) 2021 Language Science Press
- * Developed by Ronald Steffen
- * Distributed under the GNU GPL v3. For full terms see the file docs/LICENSE.
- *
- * @brief copyrightSearchPageHandler class definition
- *
- */
+  plugins/generic/copyrightSearchPage/copyrightSearchPageHandler.inc.php
+  */
 
 import('lib.pkp.pages.catalog.PKPCatalogHandler');
 

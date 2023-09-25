@@ -2,45 +2,45 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"Last-Translator: Daniel Silva Ferreira\n"
-"Language-Team: ABCD and FFLCH USP\n"
+"Last-Translator: \n"
+"Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2023-06-05T08:38:15+00:00\n"
-"PO-Revision-Date: 2023-06-05T08:38:15+00:00\n"
+"POT-Creation-Date: 2020-12-05T11:38:15+00:00\n"
+"PO-Revision-Date: 2020-12-05T11:38:15+00:00\n"
 "Language: \n"
 
 msgid "plugins.generic.copyrightSearchPage.displayName"
-msgstr "Página de Pesquisa por Copyright"
+msgstr "Page de recherche de droits d'auteur"
 
 msgid "plugins.generic.copyrightSearchPage.description"
-msgstr "Demonstra lista de livros por copyright. 
-Acesse em www.seusite.com/copyrightSearch?query=sua pesquisa"
+msgstr "Affiche la liste des livres par droit d'auteur.
+Visitez www.yoursite.com/copyrightSearch?query=your search"
 
 msgid "plugins.generic.copyrightSearchPage.title"
-msgstr "Catalogo"
+msgstr "Catalogue"
 
 msgid "plugins.generic.copyrightSearchPage.noBooks"
-msgstr "Nenhum livro publicado"
+msgstr "Aucun livre publié"
 
 msgid "plugins.generic.copyrightSearchPage.browseBooks"
-msgstr "{$numBook} livros publicados"
+msgstr "{$numBook} livres publiés"
 
 msgid "plugins.generic.copyrightSearchPage.LabelBook"
-msgstr "(1 livro)"
+msgstr "(1 livre)"
 
 msgid "plugins.generic.copyrightSearchPage.LabelBooks"
-msgstr "({$nBooks} livros)"
+msgstr "({$nBooks} livres)"
 
 msgid "plugins.generic.copyrightSearchPage.TableColLabelTitle"
-msgstr "Título"
+msgstr "Titre"
 
 msgid "plugins.generic.copyrightSearchPage.TableColLabelSeries"
-msgstr "Series"
+msgstr "Série"
 
 msgid "plugins.generic.copyrightSearchPage.TableColLabelYear"
-msgstr "Ano"
+msgstr "Année"
 
 msgid "plugins.generic.copyrightSearchPage.SearchPlaceholder"
-msgstr "Catálogo de pesquisa ..."
+msgstr "Rechercher dans le catalogue..."

@@ -1,30 +1,18 @@
-{**
- * templates/copyrightSearch.tpl adopted from templates/frontend/pages/catalog.tpl
- *
- * Copyright (c) 2021 Language Science Press
- * Developed by Ronald Steffen
- * Distributed under the GNU GPL v3. For full terms see the file docs/LICENSE.
- *
- * @brief Display the page to view the catalog.
- *
- * @uses $publishedSubmissions array List of published submissions
- * @uses $prevPage int The previous page number
- * @uses $nextPage int The next page number
- * @uses $showingStart int The number of the first item on this page
- * @uses $showingEnd int The number of the last item on this page
- *}
 {include file="frontend/components/header.tpl" pageTitle="navigation.catalog"}
 
 <link rel="stylesheet" href="{$baseurl}/plugins/generic/copyrightSearchPage/css/copyrightSearch.css" type="text/css" />
 
 <div class="page page_catalog">
 	{include file="frontend/components/breadcrumbs.tpl" currentTitleKey="navigation.catalog"}
-	<h1>{translate key="navigation.catalog"}</h1>
+	<h1>{$searchQuery}</h1>
 
     <div>
-    <div class="monograph_count cs_search_input" >
-    <input type="text" id="searchPattern" value="{$searchQuery}" placeholder="{translate key="plugins.generic.copyrightSearchPage.SearchPlaceholder"}" size=60>
+    
+    <div class="monograph_count cs_search_input" style="display: none;">
+    <input type="text" id="searchPattern" value="{$searchQuery}" placeholder="{translate key="plugins.generic.copyrightSearchPage.SearchPlaceholder"}" size=100>
 </div>
+
+    
 
         <div id="monograph_count" class="monograph_count">
             {translate key="catalog.browseTitles" numTitles=$monographs|@count}
@@ -39,14 +27,14 @@
             </div>
          {/if}
     </div>
-
+    
 	{* No published titles *}
 	{if !$monographs|@count}
 		<h2>
 			{translate key="catalog.category.heading"}
 		</h2>
 		<p>{translate key="catalog.noTitles"}</p>
-
+       
 	{* Monograph List *}
 	{else}
 		{if !$heading}
