@@ -1,0 +1,67 @@
+.cs_image {
+    width: 45px;
+    max-width: none;
+    padding: 5px;
+    text-align: center;
+}
+
+.cs_search_input {
+    float:left !important;
+}
+
+.cs_catalog_table {
+    width: 100%;
+}
+
+.cs_col {
+    text-align: center;
+    cursor: pointer;
+}
+
+.cs_col_year{
+    width: 60px;
+    cursor: pointer;
+}
+
+.cs_col_series {
+    text-align: left;
+}
+
+.cs_pagination {
+    text-align: center;
+    width: 100%;
+    clear: left;
+    border-top: 1px solid #ddd !important;
+    border-bottom: 1px solid #ddd;
+    padding: 5px;
+}
+
+.cs_focus {
+    background-color: #1e6292;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.cs_pageNumber {
+    padding: 2px;
+}
+
+.cs_page_limits {
+    position: absolute;
+    left: 2%;
+}
+
+.cs_border_none {
+    border: transparent;
+}
+
+.cs_select_pubState {
+    clear: both;
+    display: flex;
+    margin-bottom: -50px;
+}
+
+div.cs_select_pubState > * {
+    margin: 0 2px;
+}
