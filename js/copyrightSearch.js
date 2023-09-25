@@ -1,9 +1,6 @@
 /* 
  * @file plugins/generic/copyrightSearchPage/js/copyrightSearch.js
- * 
- * Copyright (c) 2021 Language Science Press
- * Developed by Ronald Steffen
- * Distributed under the GNU GPL v3. For full terms see the file docs/LICENSE.
+
  */
 
 // search catalog table

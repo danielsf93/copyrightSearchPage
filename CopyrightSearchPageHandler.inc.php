@@ -19,12 +19,13 @@ class CopyrightSearchPageHandler extends PKPCatalogHandler
     public function index($args, $request)
     {
         $query = $request->getUserVar('query');
-        $templateMgr = TemplateManager::getManager($request); // Adicione esta linha
-        $query = $request->getUserVar('query');
-
-        // Defina o termo de pesquisa na caixa de pesquisa
-        $templateMgr->assign('searchQuery', $query);
         $templateMgr = TemplateManager::getManager($request);
+
+        // Termo de pesquisa na caixa de pesquisa com htmlentities
+
+        //linha onde evita cross site scripting
+        $templateMgr->assign('searchQuery', htmlspecialchars($query));
+
         $this->setupTemplate($request);
         $context = $request->getContext();
 
@@ -71,6 +72,7 @@ class CopyrightSearchPageHandler extends PKPCatalogHandler
         }
 
         uasort($monographs, function ($a, $b) {
+            // Aqui você pode adicionar sua lógica de ordenação se necessário
         });
 
         $templateMgr->assign([

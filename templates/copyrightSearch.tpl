@@ -9,8 +9,9 @@
     <div>
     
     <div class="monograph_count cs_search_input" style="display: none;">
-    <input type="text" id="searchPattern" value="{$searchQuery}" placeholder="{translate key="plugins.generic.copyrightSearchPage.SearchPlaceholder"}" size=100>
+    <input type="text" id="searchPattern" value="{$searchQuery|escape}" placeholder="{translate key="plugins.generic.copyrightSearchPage.SearchPlaceholder"}" size=100>
 </div>
+
 
     
 
